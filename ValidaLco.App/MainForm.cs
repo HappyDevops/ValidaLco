@@ -68,6 +68,7 @@ namespace ValidaLco.App
         private void PreparaFormularioParaFinDeConsulta()
         {
             TableLayoutPanel.Enabled = true;
+            Cursor = Cursors.Default;
         }
 
         private void MuestraResultado(ResultadoConsultaRfc resultado)
@@ -100,6 +101,7 @@ namespace ValidaLco.App
 
         private void PreparaFormularioParaConsulta()
         {
+            Cursor = Cursors.WaitCursor;
             TableLayoutPanel.Enabled = false;
             txtBxResultado.Text = string.Empty;
         }

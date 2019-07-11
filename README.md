@@ -7,6 +7,8 @@ Es necesario contar con un usuario integrador y un emisor registrado para poder 
 ## Configurar el Kit.
 Dentro del proyecto ValidaLco.App, en el archivo de configuración se puede modificar el usuario integrador por defecto, su contraseña o el emisor. El proyecto usa log4net para registrar los errores de las consultas.
 
+Es necesario ejecutar Nuget Restore luego de descargar los fuentes.
+
 ## Uso de SlowChetaah.
 El proyecto usa Slowchetaah para generar los archivos de configuración, si se elije hacer una Build con Release se usara la configuración de produccion, en cambio si la Build se hace con Debug se usara la configuración de pruebas.
 
